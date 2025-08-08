@@ -12,7 +12,7 @@ const Contact = () => {
     e.preventDefault();
     await axios
       .post(
-        "https://event-management-project-website.onrender.com/api/v1/message/send",
+        "https://event-management-project-website.onrender.com",
         {
           name,
           email,
